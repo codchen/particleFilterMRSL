@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4DC8DAE8-C6B5-41DA-9CD5-FA111CBA9EE4</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3782a22c-6461-44a0-aa98-3f83f425f6b9++8634</key>
+		<string>https://svn.rice.edu/r/mrone/robotcode</string>
+	</dict>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3782a22c-6461-44a0-aa98-3f83f425f6b9++8634</key>
+		<string>robotcode/</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>3782a22c-6461-44a0-aa98-3f83f425f6b9++8634</key>
+		<string>https://svn.rice.edu/r/mrone</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://svn.rice.edu/r/mrone/robotcode</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3782a22c-6461-44a0-aa98-3f83f425f6b9++8634</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3782a22c-6461-44a0-aa98-3f83f425f6b9++8634</string>
+			<key>IDESourceControlWCCName</key>
+			<string>robotcode</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,681 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FFE20BDA1A1FAF540020E3FC /* newFilterpdfRelative.c in Sources */ = {isa = PBXBuildFile; fileRef = FFE20BD31A1FAF540020E3FC /* newFilterpdfRelative.c */; };
+		FFE20BDB1A1FAF540020E3FC /* randNormal.c in Sources */ = {isa = PBXBuildFile; fileRef = FFE20BD41A1FAF540020E3FC /* randNormal.c */; };
+		FFE20BDC1A1FAF540020E3FC /* RelativeMultiFlock.c in Sources */ = {isa = PBXBuildFile; fileRef = FFE20BD51A1FAF540020E3FC /* RelativeMultiFlock.c */; };
+		FFE20BDD1A1FAF540020E3FC /* relativeUnifreinject.c in Sources */ = {isa = PBXBuildFile; fileRef = FFE20BD71A1FAF540020E3FC /* relativeUnifreinject.c */; };
+		FFE20BDE1A1FAF540020E3FC /* robotmotionSampleStruct.c in Sources */ = {isa = PBXBuildFile; fileRef = FFE20BD81A1FAF540020E3FC /* robotmotionSampleStruct.c */; };
+		FFE20BDF1A1FAF540020E3FC /* Tools.c in Sources */ = {isa = PBXBuildFile; fileRef = FFE20BD91A1FAF540020E3FC /* Tools.c */; };
+		FFFDB47D1A0C3A9D0068EF51 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FFFDB47C1A0C3A9D0068EF51 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FFFDB4771A0C3A9D0068EF51 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF2CFF231A0C5F7E008943A2 /* aclocal */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = aclocal; sourceTree = "<group>"; };
+		FF2CFF241A0C5F7E008943A2 /* aclocal-1.10 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "aclocal-1.10"; sourceTree = "<group>"; };
+		FF2CFF251A0C5F7E008943A2 /* aclocal-1.11 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "aclocal-1.11"; sourceTree = "<group>"; };
+		FF2CFF261A0C5F7E008943A2 /* aclocal-1.12 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "aclocal-1.12"; sourceTree = "<group>"; };
+		FF2CFF271A0C5F7E008943A2 /* aclocal-1.13 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "aclocal-1.13"; sourceTree = "<group>"; };
+		FF2CFF281A0C5F7E008943A2 /* autoconf */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autoconf; sourceTree = "<group>"; };
+		FF2CFF291A0C5F7E008943A2 /* autoheader */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = autoheader; sourceTree = "<group>"; };
+		FF2CFF2A1A0C5F7E008943A2 /* autom4te */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = autom4te; sourceTree = "<group>"; };
+		FF2CFF2B1A0C5F7E008943A2 /* automake */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = automake; sourceTree = "<group>"; };
+		FF2CFF2C1A0C5F7E008943A2 /* automake-1.10 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "automake-1.10"; sourceTree = "<group>"; };
+		FF2CFF2D1A0C5F7E008943A2 /* automake-1.11 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "automake-1.11"; sourceTree = "<group>"; };
+		FF2CFF2E1A0C5F7E008943A2 /* automake-1.12 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "automake-1.12"; sourceTree = "<group>"; };
+		FF2CFF2F1A0C5F7E008943A2 /* automake-1.13 */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "automake-1.13"; sourceTree = "<group>"; };
+		FF2CFF301A0C5F7F008943A2 /* autopoint */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = autopoint; sourceTree = "<group>"; };
+		FF2CFF311A0C5F7F008943A2 /* autoreconf */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = autoreconf; sourceTree = "<group>"; };
+		FF2CFF321A0C5F7F008943A2 /* autoscan */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = autoscan; sourceTree = "<group>"; };
+		FF2CFF331A0C5F7F008943A2 /* autoupdate */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = autoupdate; sourceTree = "<group>"; };
+		FF2CFF341A0C5F7F008943A2 /* bison */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bison; sourceTree = "<group>"; };
+		FF2CFF351A0C5F7F008943A2 /* bmp2tiff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = bmp2tiff; sourceTree = "<group>"; };
+		FF2CFF361A0C5F7F008943A2 /* cairo-trace */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "cairo-trace"; sourceTree = "<group>"; };
+		FF2CFF371A0C5F7F008943A2 /* ccmake */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ccmake; sourceTree = "<group>"; };
+		FF2CFF381A0C5F7F008943A2 /* cjpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cjpeg; sourceTree = "<group>"; };
+		FF2CFF391A0C5F7F008943A2 /* cmake */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cmake; sourceTree = "<group>"; };
+		FF2CFF3A1A0C5F7F008943A2 /* cmakexbuild */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cmakexbuild; sourceTree = "<group>"; };
+		FF2CFF3B1A0C5F7F008943A2 /* cpack */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = cpack; sourceTree = "<group>"; };
+		FF2CFF3C1A0C5F7F008943A2 /* ctest */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ctest; sourceTree = "<group>"; };
+		FF2CFF3D1A0C5F7F008943A2 /* djpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = djpeg; sourceTree = "<group>"; };
+		FF2CFF3E1A0C5F7F008943A2 /* envsubst */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = envsubst; sourceTree = "<group>"; };
+		FF2CFF3F1A0C5F7F008943A2 /* fax2ps */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = fax2ps; sourceTree = "<group>"; };
+		FF2CFF401A0C5F7F008943A2 /* fax2tiff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = fax2tiff; sourceTree = "<group>"; };
+		FF2CFF411A0C5F7F008943A2 /* fc-cache */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-cache"; sourceTree = "<group>"; };
+		FF2CFF421A0C5F7F008943A2 /* fc-cat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-cat"; sourceTree = "<group>"; };
+		FF2CFF431A0C5F7F008943A2 /* fc-list */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-list"; sourceTree = "<group>"; };
+		FF2CFF441A0C5F7F008943A2 /* fc-match */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-match"; sourceTree = "<group>"; };
+		FF2CFF451A0C5F7F008943A2 /* fc-pattern */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-pattern"; sourceTree = "<group>"; };
+		FF2CFF461A0C5F7F008943A2 /* fc-query */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-query"; sourceTree = "<group>"; };
+		FF2CFF471A0C5F7F008943A2 /* fc-scan */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-scan"; sourceTree = "<group>"; };
+		FF2CFF481A0C5F7F008943A2 /* fc-validate */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "fc-validate"; sourceTree = "<group>"; };
+		FF2CFF491A0C5F7F008943A2 /* flex */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = flex; sourceTree = "<group>"; };
+		FF2CFF4A1A0C5F7F008943A2 /* flex++ */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "flex++"; sourceTree = "<group>"; };
+		FF2CFF4B1A0C5F7F008943A2 /* freetype-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "freetype-config"; sourceTree = "<group>"; };
+		FF2CFF4C1A0C5F7F008943A2 /* g-ir-annotation-tool */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "g-ir-annotation-tool"; sourceTree = "<group>"; };
+		FF2CFF4D1A0C5F7F008943A2 /* g-ir-compiler */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "g-ir-compiler"; sourceTree = "<group>"; };
+		FF2CFF4E1A0C5F7F008943A2 /* g-ir-generate */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "g-ir-generate"; sourceTree = "<group>"; };
+		FF2CFF4F1A0C5F7F008943A2 /* g-ir-scanner */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "g-ir-scanner"; sourceTree = "<group>"; };
+		FF2CFF501A0C5F7F008943A2 /* gdbus */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gdbus; sourceTree = "<group>"; };
+		FF2CFF511A0C5F7F008943A2 /* gdbus-codegen */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "gdbus-codegen"; sourceTree = "<group>"; };
+		FF2CFF521A0C5F7F008943A2 /* gdk-pixbuf-csource */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gdk-pixbuf-csource"; sourceTree = "<group>"; };
+		FF2CFF531A0C5F7F008943A2 /* gdk-pixbuf-pixdata */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gdk-pixbuf-pixdata"; sourceTree = "<group>"; };
+		FF2CFF541A0C5F7F008943A2 /* gdk-pixbuf-query-loaders */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gdk-pixbuf-query-loaders"; sourceTree = "<group>"; };
+		FF2CFF551A0C5F7F008943A2 /* gettext */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gettext; sourceTree = "<group>"; };
+		FF2CFF561A0C5F7F008943A2 /* gettext.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gettext.sh; sourceTree = "<group>"; };
+		FF2CFF571A0C5F7F008943A2 /* gettextize */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gettextize; sourceTree = "<group>"; };
+		FF2CFF581A0C5F7F008943A2 /* gif2tiff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gif2tiff; sourceTree = "<group>"; };
+		FF2CFF591A0C5F7F008943A2 /* gio-querymodules */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gio-querymodules"; sourceTree = "<group>"; };
+		FF2CFF5A1A0C5F7F008943A2 /* glib-compile-resources */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "glib-compile-resources"; sourceTree = "<group>"; };
+		FF2CFF5B1A0C5F7F008943A2 /* glib-compile-schemas */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "glib-compile-schemas"; sourceTree = "<group>"; };
+		FF2CFF5C1A0C5F7F008943A2 /* glib-genmarshal */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "glib-genmarshal"; sourceTree = "<group>"; };
+		FF2CFF5D1A0C5F7F008943A2 /* glib-gettextize */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "glib-gettextize"; sourceTree = "<group>"; };
+		FF2CFF5E1A0C5F7F008943A2 /* glib-mkenums */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "glib-mkenums"; sourceTree = "<group>"; };
+		FF2CFF5F1A0C5F7F008943A2 /* gnome-autogen.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gnome-autogen.sh"; sourceTree = "<group>"; };
+		FF2CFF601A0C5F7F008943A2 /* gnome-doc-common */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gnome-doc-common"; sourceTree = "<group>"; };
+		FF2CFF611A0C5F7F008943A2 /* gnome-doc-prepare */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gnome-doc-prepare"; sourceTree = "<group>"; };
+		FF2CFF621A0C5F7F008943A2 /* gnome-doc-tool */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gnome-doc-tool"; sourceTree = "<group>"; };
+		FF2CFF631A0C5F7F008943A2 /* gobject-query */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gobject-query"; sourceTree = "<group>"; };
+		FF2CFF641A0C5F7F008943A2 /* gresource */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gresource; sourceTree = "<group>"; };
+		FF2CFF651A0C5F7F008943A2 /* gsettings */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gsettings; sourceTree = "<group>"; };
+		FF2CFF661A0C5F7F008943A2 /* gtester */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = gtester; sourceTree = "<group>"; };
+		FF2CFF671A0C5F7F008943A2 /* gtester-report */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "gtester-report"; sourceTree = "<group>"; };
+		FF2CFF681A0C5F7F008943A2 /* gtk-builder-convert */ = {isa = PBXFileReference; lastKnownFileType = text; path = "gtk-builder-convert"; sourceTree = "<group>"; };
+		FF2CFF691A0C5F7F008943A2 /* gtk-demo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gtk-demo"; sourceTree = "<group>"; };
+		FF2CFF6A1A0C5F7F008943A2 /* gtk-query-immodules-2.0 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gtk-query-immodules-2.0"; sourceTree = "<group>"; };
+		FF2CFF6B1A0C5F7F008943A2 /* gtk-update-icon-cache */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "gtk-update-icon-cache"; sourceTree = "<group>"; };
+		FF2CFF6C1A0C5F7F008943A2 /* gtkdoc-check */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-check"; sourceTree = "<group>"; };
+		FF2CFF6D1A0C5F7F008943A2 /* gtkdoc-depscan */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "gtkdoc-depscan"; sourceTree = "<group>"; };
+		FF2CFF6E1A0C5F7F008943A2 /* gtkdoc-fixxref */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-fixxref"; sourceTree = "<group>"; };
+		FF2CFF6F1A0C5F7F008943A2 /* gtkdoc-mkdb */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-mkdb"; sourceTree = "<group>"; };
+		FF2CFF701A0C5F7F008943A2 /* gtkdoc-mkhtml */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gtkdoc-mkhtml"; sourceTree = "<group>"; };
+		FF2CFF711A0C5F7F008943A2 /* gtkdoc-mkman */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gtkdoc-mkman"; sourceTree = "<group>"; };
+		FF2CFF721A0C5F7F008943A2 /* gtkdoc-mkpdf */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "gtkdoc-mkpdf"; sourceTree = "<group>"; };
+		FF2CFF731A0C5F7F008943A2 /* gtkdoc-mktmpl */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-mktmpl"; sourceTree = "<group>"; };
+		FF2CFF741A0C5F7F008943A2 /* gtkdoc-rebase */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-rebase"; sourceTree = "<group>"; };
+		FF2CFF751A0C5F7F008943A2 /* gtkdoc-scan */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-scan"; sourceTree = "<group>"; };
+		FF2CFF761A0C5F7F008943A2 /* gtkdoc-scangobj */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-scangobj"; sourceTree = "<group>"; };
+		FF2CFF771A0C5F7F008943A2 /* gtkdoc-scanobj */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "gtkdoc-scanobj"; sourceTree = "<group>"; };
+		FF2CFF781A0C5F7F008943A2 /* gtkdocize */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = gtkdocize; sourceTree = "<group>"; };
+		FF2CFF791A0C5F7F008943A2 /* ifnames */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = ifnames; sourceTree = "<group>"; };
+		FF2CFF7A1A0C5F7F008943A2 /* intltool-extract */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "intltool-extract"; sourceTree = "<group>"; };
+		FF2CFF7B1A0C5F7F008943A2 /* intltool-merge */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "intltool-merge"; sourceTree = "<group>"; };
+		FF2CFF7C1A0C5F7F008943A2 /* intltool-prepare */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "intltool-prepare"; sourceTree = "<group>"; };
+		FF2CFF7D1A0C5F7F008943A2 /* intltool-update */ = {isa = PBXFileReference; lastKnownFileType = text.script.perl; path = "intltool-update"; sourceTree = "<group>"; };
+		FF2CFF7E1A0C5F7F008943A2 /* intltoolize */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = intltoolize; sourceTree = "<group>"; };
+		FF2CFF7F1A0C5F7F008943A2 /* jpegtran */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = jpegtran; sourceTree = "<group>"; };
+		FF2CFF801A0C5F7F008943A2 /* jpgicc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = jpgicc; sourceTree = "<group>"; };
+		FF2CFF811A0C5F7F008943A2 /* libpng-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "libpng-config"; sourceTree = "<group>"; };
+		FF2CFF821A0C5F7F008943A2 /* libpng15-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "libpng15-config"; sourceTree = "<group>"; };
+		FF2CFF831A0C5F7F008943A2 /* libtool */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = libtool; sourceTree = "<group>"; };
+		FF2CFF841A0C5F7F008943A2 /* libtoolize */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = libtoolize; sourceTree = "<group>"; };
+		FF2CFF851A0C5F7F008943A2 /* linkicc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = linkicc; sourceTree = "<group>"; };
+		FF2CFF861A0C5F7F008943A2 /* lzcat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lzcat; sourceTree = "<group>"; };
+		FF2CFF871A0C5F7F008943A2 /* lzcmp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzcmp; sourceTree = "<group>"; };
+		FF2CFF881A0C5F7F008943A2 /* lzdiff */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzdiff; sourceTree = "<group>"; };
+		FF2CFF891A0C5F7F008943A2 /* lzegrep */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzegrep; sourceTree = "<group>"; };
+		FF2CFF8A1A0C5F7F008943A2 /* lzfgrep */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzfgrep; sourceTree = "<group>"; };
+		FF2CFF8B1A0C5F7F008943A2 /* lzgrep */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzgrep; sourceTree = "<group>"; };
+		FF2CFF8C1A0C5F7F008943A2 /* lzless */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzless; sourceTree = "<group>"; };
+		FF2CFF8D1A0C5F7F008943A2 /* lzma */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lzma; sourceTree = "<group>"; };
+		FF2CFF8E1A0C5F7F008943A2 /* lzmadec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lzmadec; sourceTree = "<group>"; };
+		FF2CFF8F1A0C5F7F008943A2 /* lzmainfo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lzmainfo; sourceTree = "<group>"; };
+		FF2CFF901A0C5F7F008943A2 /* lzmore */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = lzmore; sourceTree = "<group>"; };
+		FF2CFF911A0C5F7F008943A2 /* m4 */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = m4; sourceTree = "<group>"; };
+		FF2CFF921A0C5F7F008943A2 /* msgattrib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgattrib; sourceTree = "<group>"; };
+		FF2CFF931A0C5F7F008943A2 /* msgcat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgcat; sourceTree = "<group>"; };
+		FF2CFF941A0C5F7F008943A2 /* msgcmp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgcmp; sourceTree = "<group>"; };
+		FF2CFF951A0C5F7F008943A2 /* msgcomm */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgcomm; sourceTree = "<group>"; };
+		FF2CFF961A0C5F7F008943A2 /* msgconv */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgconv; sourceTree = "<group>"; };
+		FF2CFF971A0C5F7F008943A2 /* msgen */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgen; sourceTree = "<group>"; };
+		FF2CFF981A0C5F7F008943A2 /* msgexec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgexec; sourceTree = "<group>"; };
+		FF2CFF991A0C5F7F008943A2 /* msgfilter */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgfilter; sourceTree = "<group>"; };
+		FF2CFF9A1A0C5F7F008943A2 /* msgfmt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgfmt; sourceTree = "<group>"; };
+		FF2CFF9B1A0C5F7F008943A2 /* msggrep */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msggrep; sourceTree = "<group>"; };
+		FF2CFF9C1A0C5F7F008943A2 /* msginit */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msginit; sourceTree = "<group>"; };
+		FF2CFF9D1A0C5F7F008943A2 /* msgmerge */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgmerge; sourceTree = "<group>"; };
+		FF2CFF9E1A0C5F7F008943A2 /* msgunfmt */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msgunfmt; sourceTree = "<group>"; };
+		FF2CFF9F1A0C5F7F008943A2 /* msguniq */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = msguniq; sourceTree = "<group>"; };
+		FF2CFFA01A0C5F7F008943A2 /* ngettext */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ngettext; sourceTree = "<group>"; };
+		FF2CFFA11A0C5F7F008943A2 /* pal2rgb */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = pal2rgb; sourceTree = "<group>"; };
+		FF2CFFA21A0C5F80008943A2 /* pango-querymodules */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "pango-querymodules"; sourceTree = "<group>"; };
+		FF2CFFA31A0C5F80008943A2 /* pango-view */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "pango-view"; sourceTree = "<group>"; };
+		FF2CFFA41A0C5F80008943A2 /* pkg-config */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "pkg-config"; sourceTree = "<group>"; };
+		FF2CFFA51A0C5F80008943A2 /* ppm2tiff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ppm2tiff; sourceTree = "<group>"; };
+		FF2CFFA61A0C5F80008943A2 /* psicc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = psicc; sourceTree = "<group>"; };
+		FF2CFFA71A0C5F80008943A2 /* ras2tiff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ras2tiff; sourceTree = "<group>"; };
+		FF2CFFA81A0C5F80008943A2 /* raw2tiff */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = raw2tiff; sourceTree = "<group>"; };
+		FF2CFFA91A0C5F80008943A2 /* rdjpgcom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rdjpgcom; sourceTree = "<group>"; };
+		FF2CFFAA1A0C5F80008943A2 /* recode-sr-latin */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "recode-sr-latin"; sourceTree = "<group>"; };
+		FF2CFFAB1A0C5F80008943A2 /* rgb2ycbcr */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rgb2ycbcr; sourceTree = "<group>"; };
+		FF2CFFAC1A0C5F80008943A2 /* thumbnail */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = thumbnail; sourceTree = "<group>"; };
+		FF2CFFAD1A0C5F80008943A2 /* tiff2bw */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiff2bw; sourceTree = "<group>"; };
+		FF2CFFAE1A0C5F80008943A2 /* tiff2pdf */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiff2pdf; sourceTree = "<group>"; };
+		FF2CFFAF1A0C5F80008943A2 /* tiff2ps */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiff2ps; sourceTree = "<group>"; };
+		FF2CFFB01A0C5F80008943A2 /* tiff2rgba */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiff2rgba; sourceTree = "<group>"; };
+		FF2CFFB11A0C5F80008943A2 /* tiffcmp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffcmp; sourceTree = "<group>"; };
+		FF2CFFB21A0C5F80008943A2 /* tiffcp */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffcp; sourceTree = "<group>"; };
+		FF2CFFB31A0C5F80008943A2 /* tiffcrop */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffcrop; sourceTree = "<group>"; };
+		FF2CFFB41A0C5F80008943A2 /* tiffdither */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffdither; sourceTree = "<group>"; };
+		FF2CFFB51A0C5F80008943A2 /* tiffdump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffdump; sourceTree = "<group>"; };
+		FF2CFFB61A0C5F80008943A2 /* tiffinfo */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffinfo; sourceTree = "<group>"; };
+		FF2CFFB71A0C5F80008943A2 /* tiffmedian */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffmedian; sourceTree = "<group>"; };
+		FF2CFFB81A0C5F80008943A2 /* tiffset */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffset; sourceTree = "<group>"; };
+		FF2CFFB91A0C5F80008943A2 /* tiffsplit */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tiffsplit; sourceTree = "<group>"; };
+		FF2CFFBA1A0C5F80008943A2 /* tificc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tificc; sourceTree = "<group>"; };
+		FF2CFFBB1A0C5F80008943A2 /* transicc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = transicc; sourceTree = "<group>"; };
+		FF2CFFBC1A0C5F80008943A2 /* unlzma */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unlzma; sourceTree = "<group>"; };
+		FF2CFFBD1A0C5F80008943A2 /* unxz */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = unxz; sourceTree = "<group>"; };
+		FF2CFFBE1A0C5F80008943A2 /* wrjpgcom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = wrjpgcom; sourceTree = "<group>"; };
+		FF2CFFBF1A0C5F80008943A2 /* xgettext */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xgettext; sourceTree = "<group>"; };
+		FF2CFFC01A0C5F80008943A2 /* xml2-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "xml2-config"; sourceTree = "<group>"; };
+		FF2CFFC11A0C5F80008943A2 /* xml2po */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = xml2po; sourceTree = "<group>"; };
+		FF2CFFC21A0C5F80008943A2 /* xmlcatalog */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xmlcatalog; sourceTree = "<group>"; };
+		FF2CFFC31A0C5F80008943A2 /* xmllint */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xmllint; sourceTree = "<group>"; };
+		FF2CFFC41A0C5F80008943A2 /* xmlwf */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xmlwf; sourceTree = "<group>"; };
+		FF2CFFC51A0C5F80008943A2 /* xslt-config */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = "xslt-config"; sourceTree = "<group>"; };
+		FF2CFFC61A0C5F80008943A2 /* xsltproc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xsltproc; sourceTree = "<group>"; };
+		FF2CFFC71A0C5F80008943A2 /* xz */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xz; sourceTree = "<group>"; };
+		FF2CFFC81A0C5F80008943A2 /* xzcat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xzcat; sourceTree = "<group>"; };
+		FF2CFFC91A0C5F80008943A2 /* xzcmp */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzcmp; sourceTree = "<group>"; };
+		FF2CFFCA1A0C5F80008943A2 /* xzdec */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = xzdec; sourceTree = "<group>"; };
+		FF2CFFCB1A0C5F80008943A2 /* xzdiff */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzdiff; sourceTree = "<group>"; };
+		FF2CFFCC1A0C5F80008943A2 /* xzegrep */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzegrep; sourceTree = "<group>"; };
+		FF2CFFCD1A0C5F80008943A2 /* xzfgrep */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzfgrep; sourceTree = "<group>"; };
+		FF2CFFCE1A0C5F80008943A2 /* xzgrep */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzgrep; sourceTree = "<group>"; };
+		FF2CFFCF1A0C5F80008943A2 /* xzless */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzless; sourceTree = "<group>"; };
+		FF2CFFD01A0C5F80008943A2 /* xzmore */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = xzmore; sourceTree = "<group>"; };
+		FF2CFFD11A0C5F80008943A2 /* yacc */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = yacc; sourceTree = "<group>"; };
+		FF481ECA1A0F276A008A615A /* AT1.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AT1.log; sourceTree = "<group>"; };
+		FF481ECD1A0FC5E0008A615A /* AT3.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AT3.log; sourceTree = "<group>"; };
+		FF481ECE1A0FC5E0008A615A /* AT5.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AT5.log; sourceTree = "<group>"; };
+		FF481ECF1A0FC864008A615A /* 97AT2.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 97AT2.log; sourceTree = "<group>"; };
+		FF481ED01A0FC864008A615A /* 110AT4.log */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 110AT4.log; sourceTree = "<group>"; };
+		FFE20BD31A1FAF540020E3FC /* newFilterpdfRelative.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = newFilterpdfRelative.c; sourceTree = "<group>"; };
+		FFE20BD41A1FAF540020E3FC /* randNormal.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = randNormal.c; sourceTree = "<group>"; };
+		FFE20BD51A1FAF540020E3FC /* RelativeMultiFlock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RelativeMultiFlock.c; sourceTree = "<group>"; };
+		FFE20BD61A1FAF540020E3FC /* RelativeMultiFlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeMultiFlock.h; sourceTree = "<group>"; };
+		FFE20BD71A1FAF540020E3FC /* relativeUnifreinject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = relativeUnifreinject.c; sourceTree = "<group>"; };
+		FFE20BD81A1FAF540020E3FC /* robotmotionSampleStruct.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = robotmotionSampleStruct.c; sourceTree = "<group>"; };
+		FFE20BD91A1FAF540020E3FC /* Tools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Tools.c; sourceTree = "<group>"; };
+		FFE20BE01A1FDCEB0020E3FC /* Tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tools.h; sourceTree = "<group>"; };
+		FFE20BE11A1FEA5D0020E3FC /* robotmotionSampleStruct.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = robotmotionSampleStruct.h; sourceTree = "<group>"; };
+		FFE20BE21A1FEA9C0020E3FC /* newFilterpdfRelative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newFilterpdfRelative.h; sourceTree = "<group>"; };
+		FFE20BE31A1FEAF20020E3FC /* randNormal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = randNormal.h; sourceTree = "<group>"; };
+		FFE20BE41A1FEB490020E3FC /* relativeUnifreinject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = relativeUnifreinject.h; sourceTree = "<group>"; };
+		FFFDB4791A0C3A9D0068EF51 /* Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Test; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFDB47C1A0C3A9D0068EF51 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFFDB4761A0C3A9D0068EF51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF2CFF221A0C5F7E008943A2 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				FF2CFF231A0C5F7E008943A2 /* aclocal */,
+				FF2CFF241A0C5F7E008943A2 /* aclocal-1.10 */,
+				FF2CFF251A0C5F7E008943A2 /* aclocal-1.11 */,
+				FF2CFF261A0C5F7E008943A2 /* aclocal-1.12 */,
+				FF2CFF271A0C5F7E008943A2 /* aclocal-1.13 */,
+				FF2CFF281A0C5F7E008943A2 /* autoconf */,
+				FF2CFF291A0C5F7E008943A2 /* autoheader */,
+				FF2CFF2A1A0C5F7E008943A2 /* autom4te */,
+				FF2CFF2B1A0C5F7E008943A2 /* automake */,
+				FF2CFF2C1A0C5F7E008943A2 /* automake-1.10 */,
+				FF2CFF2D1A0C5F7E008943A2 /* automake-1.11 */,
+				FF2CFF2E1A0C5F7E008943A2 /* automake-1.12 */,
+				FF2CFF2F1A0C5F7E008943A2 /* automake-1.13 */,
+				FF2CFF301A0C5F7F008943A2 /* autopoint */,
+				FF2CFF311A0C5F7F008943A2 /* autoreconf */,
+				FF2CFF321A0C5F7F008943A2 /* autoscan */,
+				FF2CFF331A0C5F7F008943A2 /* autoupdate */,
+				FF2CFF341A0C5F7F008943A2 /* bison */,
+				FF2CFF351A0C5F7F008943A2 /* bmp2tiff */,
+				FF2CFF361A0C5F7F008943A2 /* cairo-trace */,
+				FF2CFF371A0C5F7F008943A2 /* ccmake */,
+				FF2CFF381A0C5F7F008943A2 /* cjpeg */,
+				FF2CFF391A0C5F7F008943A2 /* cmake */,
+				FF2CFF3A1A0C5F7F008943A2 /* cmakexbuild */,
+				FF2CFF3B1A0C5F7F008943A2 /* cpack */,
+				FF2CFF3C1A0C5F7F008943A2 /* ctest */,
+				FF2CFF3D1A0C5F7F008943A2 /* djpeg */,
+				FF2CFF3E1A0C5F7F008943A2 /* envsubst */,
+				FF2CFF3F1A0C5F7F008943A2 /* fax2ps */,
+				FF2CFF401A0C5F7F008943A2 /* fax2tiff */,
+				FF2CFF411A0C5F7F008943A2 /* fc-cache */,
+				FF2CFF421A0C5F7F008943A2 /* fc-cat */,
+				FF2CFF431A0C5F7F008943A2 /* fc-list */,
+				FF2CFF441A0C5F7F008943A2 /* fc-match */,
+				FF2CFF451A0C5F7F008943A2 /* fc-pattern */,
+				FF2CFF461A0C5F7F008943A2 /* fc-query */,
+				FF2CFF471A0C5F7F008943A2 /* fc-scan */,
+				FF2CFF481A0C5F7F008943A2 /* fc-validate */,
+				FF2CFF491A0C5F7F008943A2 /* flex */,
+				FF2CFF4A1A0C5F7F008943A2 /* flex++ */,
+				FF2CFF4B1A0C5F7F008943A2 /* freetype-config */,
+				FF2CFF4C1A0C5F7F008943A2 /* g-ir-annotation-tool */,
+				FF2CFF4D1A0C5F7F008943A2 /* g-ir-compiler */,
+				FF2CFF4E1A0C5F7F008943A2 /* g-ir-generate */,
+				FF2CFF4F1A0C5F7F008943A2 /* g-ir-scanner */,
+				FF2CFF501A0C5F7F008943A2 /* gdbus */,
+				FF2CFF511A0C5F7F008943A2 /* gdbus-codegen */,
+				FF2CFF521A0C5F7F008943A2 /* gdk-pixbuf-csource */,
+				FF2CFF531A0C5F7F008943A2 /* gdk-pixbuf-pixdata */,
+				FF2CFF541A0C5F7F008943A2 /* gdk-pixbuf-query-loaders */,
+				FF2CFF551A0C5F7F008943A2 /* gettext */,
+				FF2CFF561A0C5F7F008943A2 /* gettext.sh */,
+				FF2CFF571A0C5F7F008943A2 /* gettextize */,
+				FF2CFF581A0C5F7F008943A2 /* gif2tiff */,
+				FF2CFF591A0C5F7F008943A2 /* gio-querymodules */,
+				FF2CFF5A1A0C5F7F008943A2 /* glib-compile-resources */,
+				FF2CFF5B1A0C5F7F008943A2 /* glib-compile-schemas */,
+				FF2CFF5C1A0C5F7F008943A2 /* glib-genmarshal */,
+				FF2CFF5D1A0C5F7F008943A2 /* glib-gettextize */,
+				FF2CFF5E1A0C5F7F008943A2 /* glib-mkenums */,
+				FF2CFF5F1A0C5F7F008943A2 /* gnome-autogen.sh */,
+				FF2CFF601A0C5F7F008943A2 /* gnome-doc-common */,
+				FF2CFF611A0C5F7F008943A2 /* gnome-doc-prepare */,
+				FF2CFF621A0C5F7F008943A2 /* gnome-doc-tool */,
+				FF2CFF631A0C5F7F008943A2 /* gobject-query */,
+				FF2CFF641A0C5F7F008943A2 /* gresource */,
+				FF2CFF651A0C5F7F008943A2 /* gsettings */,
+				FF2CFF661A0C5F7F008943A2 /* gtester */,
+				FF2CFF671A0C5F7F008943A2 /* gtester-report */,
+				FF2CFF681A0C5F7F008943A2 /* gtk-builder-convert */,
+				FF2CFF691A0C5F7F008943A2 /* gtk-demo */,
+				FF2CFF6A1A0C5F7F008943A2 /* gtk-query-immodules-2.0 */,
+				FF2CFF6B1A0C5F7F008943A2 /* gtk-update-icon-cache */,
+				FF2CFF6C1A0C5F7F008943A2 /* gtkdoc-check */,
+				FF2CFF6D1A0C5F7F008943A2 /* gtkdoc-depscan */,
+				FF2CFF6E1A0C5F7F008943A2 /* gtkdoc-fixxref */,
+				FF2CFF6F1A0C5F7F008943A2 /* gtkdoc-mkdb */,
+				FF2CFF701A0C5F7F008943A2 /* gtkdoc-mkhtml */,
+				FF2CFF711A0C5F7F008943A2 /* gtkdoc-mkman */,
+				FF2CFF721A0C5F7F008943A2 /* gtkdoc-mkpdf */,
+				FF2CFF731A0C5F7F008943A2 /* gtkdoc-mktmpl */,
+				FF2CFF741A0C5F7F008943A2 /* gtkdoc-rebase */,
+				FF2CFF751A0C5F7F008943A2 /* gtkdoc-scan */,
+				FF2CFF761A0C5F7F008943A2 /* gtkdoc-scangobj */,
+				FF2CFF771A0C5F7F008943A2 /* gtkdoc-scanobj */,
+				FF2CFF781A0C5F7F008943A2 /* gtkdocize */,
+				FF2CFF791A0C5F7F008943A2 /* ifnames */,
+				FF2CFF7A1A0C5F7F008943A2 /* intltool-extract */,
+				FF2CFF7B1A0C5F7F008943A2 /* intltool-merge */,
+				FF2CFF7C1A0C5F7F008943A2 /* intltool-prepare */,
+				FF2CFF7D1A0C5F7F008943A2 /* intltool-update */,
+				FF2CFF7E1A0C5F7F008943A2 /* intltoolize */,
+				FF2CFF7F1A0C5F7F008943A2 /* jpegtran */,
+				FF2CFF801A0C5F7F008943A2 /* jpgicc */,
+				FF2CFF811A0C5F7F008943A2 /* libpng-config */,
+				FF2CFF821A0C5F7F008943A2 /* libpng15-config */,
+				FF2CFF831A0C5F7F008943A2 /* libtool */,
+				FF2CFF841A0C5F7F008943A2 /* libtoolize */,
+				FF2CFF851A0C5F7F008943A2 /* linkicc */,
+				FF2CFF861A0C5F7F008943A2 /* lzcat */,
+				FF2CFF871A0C5F7F008943A2 /* lzcmp */,
+				FF2CFF881A0C5F7F008943A2 /* lzdiff */,
+				FF2CFF891A0C5F7F008943A2 /* lzegrep */,
+				FF2CFF8A1A0C5F7F008943A2 /* lzfgrep */,
+				FF2CFF8B1A0C5F7F008943A2 /* lzgrep */,
+				FF2CFF8C1A0C5F7F008943A2 /* lzless */,
+				FF2CFF8D1A0C5F7F008943A2 /* lzma */,
+				FF2CFF8E1A0C5F7F008943A2 /* lzmadec */,
+				FF2CFF8F1A0C5F7F008943A2 /* lzmainfo */,
+				FF2CFF901A0C5F7F008943A2 /* lzmore */,
+				FF2CFF911A0C5F7F008943A2 /* m4 */,
+				FF2CFF921A0C5F7F008943A2 /* msgattrib */,
+				FF2CFF931A0C5F7F008943A2 /* msgcat */,
+				FF2CFF941A0C5F7F008943A2 /* msgcmp */,
+				FF2CFF951A0C5F7F008943A2 /* msgcomm */,
+				FF2CFF961A0C5F7F008943A2 /* msgconv */,
+				FF2CFF971A0C5F7F008943A2 /* msgen */,
+				FF2CFF981A0C5F7F008943A2 /* msgexec */,
+				FF2CFF991A0C5F7F008943A2 /* msgfilter */,
+				FF2CFF9A1A0C5F7F008943A2 /* msgfmt */,
+				FF2CFF9B1A0C5F7F008943A2 /* msggrep */,
+				FF2CFF9C1A0C5F7F008943A2 /* msginit */,
+				FF2CFF9D1A0C5F7F008943A2 /* msgmerge */,
+				FF2CFF9E1A0C5F7F008943A2 /* msgunfmt */,
+				FF2CFF9F1A0C5F7F008943A2 /* msguniq */,
+				FF2CFFA01A0C5F7F008943A2 /* ngettext */,
+				FF2CFFA11A0C5F7F008943A2 /* pal2rgb */,
+				FF2CFFA21A0C5F80008943A2 /* pango-querymodules */,
+				FF2CFFA31A0C5F80008943A2 /* pango-view */,
+				FF2CFFA41A0C5F80008943A2 /* pkg-config */,
+				FF2CFFA51A0C5F80008943A2 /* ppm2tiff */,
+				FF2CFFA61A0C5F80008943A2 /* psicc */,
+				FF2CFFA71A0C5F80008943A2 /* ras2tiff */,
+				FF2CFFA81A0C5F80008943A2 /* raw2tiff */,
+				FF2CFFA91A0C5F80008943A2 /* rdjpgcom */,
+				FF2CFFAA1A0C5F80008943A2 /* recode-sr-latin */,
+				FF2CFFAB1A0C5F80008943A2 /* rgb2ycbcr */,
+				FF2CFFAC1A0C5F80008943A2 /* thumbnail */,
+				FF2CFFAD1A0C5F80008943A2 /* tiff2bw */,
+				FF2CFFAE1A0C5F80008943A2 /* tiff2pdf */,
+				FF2CFFAF1A0C5F80008943A2 /* tiff2ps */,
+				FF2CFFB01A0C5F80008943A2 /* tiff2rgba */,
+				FF2CFFB11A0C5F80008943A2 /* tiffcmp */,
+				FF2CFFB21A0C5F80008943A2 /* tiffcp */,
+				FF2CFFB31A0C5F80008943A2 /* tiffcrop */,
+				FF2CFFB41A0C5F80008943A2 /* tiffdither */,
+				FF2CFFB51A0C5F80008943A2 /* tiffdump */,
+				FF2CFFB61A0C5F80008943A2 /* tiffinfo */,
+				FF2CFFB71A0C5F80008943A2 /* tiffmedian */,
+				FF2CFFB81A0C5F80008943A2 /* tiffset */,
+				FF2CFFB91A0C5F80008943A2 /* tiffsplit */,
+				FF2CFFBA1A0C5F80008943A2 /* tificc */,
+				FF2CFFBB1A0C5F80008943A2 /* transicc */,
+				FF2CFFBC1A0C5F80008943A2 /* unlzma */,
+				FF2CFFBD1A0C5F80008943A2 /* unxz */,
+				FF2CFFBE1A0C5F80008943A2 /* wrjpgcom */,
+				FF2CFFBF1A0C5F80008943A2 /* xgettext */,
+				FF2CFFC01A0C5F80008943A2 /* xml2-config */,
+				FF2CFFC11A0C5F80008943A2 /* xml2po */,
+				FF2CFFC21A0C5F80008943A2 /* xmlcatalog */,
+				FF2CFFC31A0C5F80008943A2 /* xmllint */,
+				FF2CFFC41A0C5F80008943A2 /* xmlwf */,
+				FF2CFFC51A0C5F80008943A2 /* xslt-config */,
+				FF2CFFC61A0C5F80008943A2 /* xsltproc */,
+				FF2CFFC71A0C5F80008943A2 /* xz */,
+				FF2CFFC81A0C5F80008943A2 /* xzcat */,
+				FF2CFFC91A0C5F80008943A2 /* xzcmp */,
+				FF2CFFCA1A0C5F80008943A2 /* xzdec */,
+				FF2CFFCB1A0C5F80008943A2 /* xzdiff */,
+				FF2CFFCC1A0C5F80008943A2 /* xzegrep */,
+				FF2CFFCD1A0C5F80008943A2 /* xzfgrep */,
+				FF2CFFCE1A0C5F80008943A2 /* xzgrep */,
+				FF2CFFCF1A0C5F80008943A2 /* xzless */,
+				FF2CFFD01A0C5F80008943A2 /* xzmore */,
+				FF2CFFD11A0C5F80008943A2 /* yacc */,
+			);
+			name = bin;
+			path = ../../../gtk/inst/bin;
+			sourceTree = "<group>";
+		};
+		FFFDB4701A0C3A9D0068EF51 = {
+			isa = PBXGroup;
+			children = (
+				FF2CFF221A0C5F7E008943A2 /* bin */,
+				FFFDB47B1A0C3A9D0068EF51 /* Test */,
+				FFFDB47A1A0C3A9D0068EF51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FFFDB47A1A0C3A9D0068EF51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFFDB4791A0C3A9D0068EF51 /* Test */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFFDB47B1A0C3A9D0068EF51 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				FFE20BD31A1FAF540020E3FC /* newFilterpdfRelative.c */,
+				FFE20BD41A1FAF540020E3FC /* randNormal.c */,
+				FFE20BD51A1FAF540020E3FC /* RelativeMultiFlock.c */,
+				FFE20BD61A1FAF540020E3FC /* RelativeMultiFlock.h */,
+				FFE20BD71A1FAF540020E3FC /* relativeUnifreinject.c */,
+				FFE20BD81A1FAF540020E3FC /* robotmotionSampleStruct.c */,
+				FFE20BD91A1FAF540020E3FC /* Tools.c */,
+				FF481ECF1A0FC864008A615A /* 97AT2.log */,
+				FF481ED01A0FC864008A615A /* 110AT4.log */,
+				FF481ECD1A0FC5E0008A615A /* AT3.log */,
+				FF481ECE1A0FC5E0008A615A /* AT5.log */,
+				FF481ECA1A0F276A008A615A /* AT1.log */,
+				FFFDB47C1A0C3A9D0068EF51 /* main.c */,
+				FFE20BE01A1FDCEB0020E3FC /* Tools.h */,
+				FFE20BE11A1FEA5D0020E3FC /* robotmotionSampleStruct.h */,
+				FFE20BE21A1FEA9C0020E3FC /* newFilterpdfRelative.h */,
+				FFE20BE31A1FEAF20020E3FC /* randNormal.h */,
+				FFE20BE41A1FEB490020E3FC /* relativeUnifreinject.h */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFFDB4781A0C3A9D0068EF51 /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFFDB4801A0C3A9D0068EF51 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				FFFDB4751A0C3A9D0068EF51 /* Sources */,
+				FFFDB4761A0C3A9D0068EF51 /* Frameworks */,
+				FFFDB4771A0C3A9D0068EF51 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = FFFDB4791A0C3A9D0068EF51 /* Test */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFDB4711A0C3A9D0068EF51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Xiaoyu Chen";
+				TargetAttributes = {
+					FFFDB4781A0C3A9D0068EF51 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+				};
+			};
+			buildConfigurationList = FFFDB4741A0C3A9D0068EF51 /* Build configuration list for PBXProject "Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FFFDB4701A0C3A9D0068EF51;
+			productRefGroup = FFFDB47A1A0C3A9D0068EF51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFFDB4781A0C3A9D0068EF51 /* Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFFDB4751A0C3A9D0068EF51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE20BDD1A1FAF540020E3FC /* relativeUnifreinject.c in Sources */,
+				FFFDB47D1A0C3A9D0068EF51 /* main.c in Sources */,
+				FFE20BDA1A1FAF540020E3FC /* newFilterpdfRelative.c in Sources */,
+				FFE20BDB1A1FAF540020E3FC /* randNormal.c in Sources */,
+				FFE20BDC1A1FAF540020E3FC /* RelativeMultiFlock.c in Sources */,
+				FFE20BDF1A1FAF540020E3FC /* Tools.c in Sources */,
+				FFE20BDE1A1FAF540020E3FC /* robotmotionSampleStruct.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FFFDB47E1A0C3A9D0068EF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FFFDB47F1A0C3A9D0068EF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFFDB4811A0C3A9D0068EF51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/chenxiaoyu/gtk/inst/include/gtk-2.0",
+					"/Users/chenxiaoyu/gtk/inst/include/glib-2.0/",
+					"/Users/chenxiaoyu/gtk/inst/lib/glib-2.0/include",
+					/Users/chenxiaoyu/gtk/inst/include/cairo,
+					"/Users/chenxiaoyu/gtk/inst/include/pango-1.0/",
+					"/Users/chenxiaoyu/gtk/inst/lib/gtk-2.0/include",
+					"/Users/chenxiaoyu/gtk/inst/include/gdk-pixbuf-2.0/",
+					"/Users/chenxiaoyu/gtk/inst/include/atk-1.0/",
+					/System/Library/Frameworks/SDL2.framework,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FFFDB4821A0C3A9D0068EF51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks,
+					"$(LOCAL_LIBRARY_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"/Users/chenxiaoyu/gtk/inst/include/gtk-2.0",
+					"/Users/chenxiaoyu/gtk/inst/include/glib-2.0/",
+					"/Users/chenxiaoyu/gtk/inst/lib/glib-2.0/include",
+					/Users/chenxiaoyu/gtk/inst/include/cairo,
+					"/Users/chenxiaoyu/gtk/inst/include/pango-1.0/",
+					"/Users/chenxiaoyu/gtk/inst/lib/gtk-2.0/include",
+					"/Users/chenxiaoyu/gtk/inst/include/gdk-pixbuf-2.0/",
+					"/Users/chenxiaoyu/gtk/inst/include/atk-1.0/",
+					/System/Library/Frameworks/SDL2.framework,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFFDB4741A0C3A9D0068EF51 /* Build configuration list for PBXProject "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFDB47E1A0C3A9D0068EF51 /* Debug */,
+				FFFDB47F1A0C3A9D0068EF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFFDB4801A0C3A9D0068EF51 /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFFDB4811A0C3A9D0068EF51 /* Debug */,
+				FFFDB4821A0C3A9D0068EF51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFDB4711A0C3A9D0068EF51 /* Project object */;
+}
